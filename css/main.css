@@ -41,14 +41,16 @@ h1 {
   position: absolute;
   right: 0;
   top: 100%;
-  width: 12.5em;
+  width: 18em;
 }
 
 .nav a {
   display: block;
-  padding: 0.5em;
+  padding: 0.25em;
   text-decoration: none;
   color: #fff;
+  font-size: 1.75em;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .nav a:hover {
@@ -97,4 +99,8 @@ h1 {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+p {
+  font-family: Georgia, serif;
 }
