@@ -22,7 +22,7 @@ header {
   position: relative;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Bilbo Swash Caps', cursive;
   color: #fff;
   text-align: center;
@@ -103,4 +103,14 @@ h1 {
 
 p {
   font-family: Georgia, serif;
+}
+
+h3 {
+  font-family: 'Bilbo Swash Caps', cursive;
+  color: #fff;
+  text-align: center;
+  background-color: #71090A;
+  margin: 0;
+  padding: 8px;
+  font-size: 2.25em;
 }
