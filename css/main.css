@@ -11,95 +11,89 @@ body {
   padding: 0;
 }
 
-a {
-    color: #fff;
-}
-
-.header {
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    z-index: 3;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.navigation {
-    margin: auto;
-    max-width: 1000px;
-    overflow: hidden;
-    background-color: #fff;
-}
-
-.navigation ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;;
-    background-color: #AC1816;
-}
-
-.navigation .btn .menu {
-    display: none;
-}
-
-.navigation .btn:hover .menu {
-    display: block;
-}
-
-.navigation li a {
-    display: block;
-    padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
-    text-decoration: none;
-}
-
-.navigation li a:hover {
-    background-color: #71090A;
-}
-
-.navigation .logo {
-    float: left;
-}
-
-.navigation .logo a {
-    font-size: 2em;
-    padding: 10px 20px;
-}
-
-.navigation .btn-link {
-    float: right;
-    padding: 18px 30px;
-}
-
-.navigation .menu {
-    clear: both;
-}
-
-@media (min-width: 48em) {
-    .navigation li {
-        float: left;
-    }
-    .navigation li a {
-        padding: 20px 30px;
-    }
-    .navigation .btn .menu {
-        display: block;
-    }
-    .navigation .btn-link {
-        display: none;
-    }
+header {
+  background-image: url("../images/star.svg");
+  background-size: 40px auto;
+  background-repeat: no-repeat;
+  background-position: 2.5% 50%;
+  background-color: #71090A;
+  padding: 1em 0 40px;
+  text-align: center;
+  position: relative;
 }
 
 h1 {
   font-family: 'Bilbo Swash Caps', cursive;
   color: #fff;
   text-align: center;
+  background-color: #AC1816;
+  margin: 0;
+  padding: 8px;
 }
 
-@media (min-width: 48em) {
-    .container .row-split a {
-        width: 50%;
-    }
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #AC1816;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 12.5em;
+}
+
+.nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav a:hover {
+  background-color: #71090A;
+  color: #fff;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #AC1816;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
