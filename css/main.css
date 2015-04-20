@@ -1,6 +1,105 @@
 html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    color: #fff;
+}
+
+.header {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navigation {
+    margin: auto;
+    max-width: 1000px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;;
+    background-color: #AC1816;
+}
+
+.navigation .btn .menu {
+    display: none;
+}
+
+.navigation .btn:hover .menu {
+    display: block;
+}
+
+.navigation li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #71090A;
+}
+
+.navigation .logo {
+    float: left;
+}
+
+.navigation .logo a {
+    font-size: 2em;
+    padding: 10px 20px;
+}
+
+.navigation .btn-link {
+    float: right;
+    padding: 18px 30px;
+}
+
+.navigation .menu {
+    clear: both;
+}
+
+@media (min-width: 48em) {
+    .navigation li {
+        float: left;
+    }
+    .navigation li a {
+        padding: 20px 30px;
+    }
+    .navigation .btn .menu {
+        display: block;
+    }
+    .navigation .btn-link {
+        display: none;
+    }
 }
 
 h1 {
   font-family: 'Bilbo Swash Caps', cursive;
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 48em) {
+    .container .row-split a {
+        width: 50%;
+    }
 }
