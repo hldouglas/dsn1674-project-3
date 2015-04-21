@@ -103,6 +103,9 @@ h1, h2 {
 
 p {
   font-family: Georgia, serif;
+  padding: 6px;
+  margin: 0;
+  font-size: 1.1em;
 }
 
 h3 {
@@ -123,10 +126,14 @@ h4 {
   margin: 0;
   padding: 6px;
   padding-left: 24px;
+  padding-right: 24px;
   font-size: 2em;
 }
 
-em {
+.info {
   text-align: right;
-  font-style: normal;
+  font-style: italic;
+  color: #541A0F;
+  padding: 12px;
+  margin: 0;
 }
