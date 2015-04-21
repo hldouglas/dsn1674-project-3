@@ -111,6 +111,22 @@ h3 {
   text-align: center;
   background-color: #71090A;
   margin: 0;
-  padding: 8px;
+  padding: 7px;
   font-size: 2.25em;
+}
+
+h4 {
+  font-family: 'Bilbo Swash Caps', cursive;
+  color: #fff;
+  text-align: left;
+  background-color: #541A0F;
+  margin: 0;
+  padding: 6px;
+  padding-left: 24px;
+  font-size: 2em;
+}
+
+em {
+  text-align: right;
+  font-style: normal;
 }
