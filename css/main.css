@@ -158,13 +158,14 @@ i {
   padding-top: 12px;
 }
 
-table, th, td {
-    border: 1px solid #541A0F;
-    font-family: Georgia, serif;
+td {
+    border: 1px solid black;
 }
 
 th, td {
   padding-left: 6px;
+  font-size: 1.1em;
+  font-family: Georgia, serif;
 }
 
 table {
