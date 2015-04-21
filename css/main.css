@@ -133,7 +133,12 @@ h4 {
 .info {
   text-align: right;
   font-style: italic;
-  color: #541A0F;
+  color: #AC1816;
   padding: 12px;
   margin: 0;
+  font-size: 0.85em;
+}
+
+i {
+  font-size: 0.975em;
 }
