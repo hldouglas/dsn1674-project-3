@@ -154,6 +154,31 @@ i {
   font-size: 0.9em;
 }
 
-.first {
+.first, .title {
   padding-top: 12px;
+}
+
+table, th, td {
+    border: 1px solid #541A0F;
+    font-family: Georgia, serif;
+}
+
+th, td {
+  padding-left: 6px;
+}
+
+table {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.title {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.3em;
+}
+
+b {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.875em;
+  color: #541A0F;
 }
