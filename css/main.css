@@ -170,9 +170,9 @@ th, td {
 }
 
 table {
-  width: 97%;
-  margin-left: 1.5%;
-  margin-right: 1.5%;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .title {
@@ -271,9 +271,9 @@ iframe {
   color: #541A0F;
 }
 
-img {
-  width: 96%;
+img.food {
+  width: 95%;
   margin-top: 12px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
