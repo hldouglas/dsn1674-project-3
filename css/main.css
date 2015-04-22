@@ -170,9 +170,9 @@ th, td {
 }
 
 table {
-  width: 95%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  width: 93%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
 
 .title {
@@ -216,7 +216,7 @@ td em {
 }
 
 iframe {
-  width: 95%;
+  width: 93%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -272,8 +272,8 @@ iframe {
 }
 
 img.food {
-  width: 95%;
+  width: 93%;
   margin-top: 12px;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
