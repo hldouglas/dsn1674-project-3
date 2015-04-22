@@ -268,10 +268,12 @@ iframe {
 }
 
 .link {
-  text-decoration: none;
   color: #541A0F;
 }
 
-.link a:hover {
-  color: #FFAF00;
+img {
+  width: 96%;
+  margin-top: 12px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
