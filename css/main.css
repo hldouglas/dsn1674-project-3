@@ -266,3 +266,12 @@ iframe {
   background-color: #541A0F;
   color: #fff;
 }
+
+.link {
+  text-decoration: none;
+  color: #541A0F;
+}
+
+.link a:hover {
+  color: #FFAF00;
+}
