@@ -221,3 +221,48 @@ iframe {
   margin-right: auto;
   display: block;
 }
+
+.items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.items a {
+  display: block;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.25em;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.items a:hover {
+  background-color: #71090A;
+  color: #fff;
+}
+
+.sub-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.sub-menu a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.1em;
+  font-family: Verdana, Geneva, sans-serif;
+  padding-left: 24px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+}
+
+.sub-menu a:hover {
+  background-color: #541A0F;
+  color: #fff;
+}
