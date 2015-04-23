@@ -10,16 +10,16 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  line-height: 300%;
+  line-height: 425%;
 }
 
 header {
   background-image: url("../images/star.svg");
-  background-size: 100px auto;
+  background-size: 200px auto;
   background-repeat: no-repeat;
   background-position: 2.5% 50%;
   background-color: #71090A;
-  padding: 1em 0 110px;
+  padding: 1em 0 210px;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -27,7 +27,7 @@ header {
 }
 
 h1 {
-  margin-top: 126px;
+  margin-top: 226px;
   margin-bottom: 0;
 }
 
@@ -41,9 +41,9 @@ h1, h2 {
   text-align: center;
   background-color: #AC1816;
   padding: 8px;
-  font-size: 500%;
-  height: 130px;
-  line-height: 140%
+  font-size: 775%;
+  height: 225px;
+  line-height: 180%
 }
 
 .nav {
@@ -55,7 +55,7 @@ h1, h2 {
   position: absolute;
   right: 0;
   top: 100%;
-  width: 18em;
+  width: 35em;
 }
 
 .nav a {
@@ -63,8 +63,9 @@ h1, h2 {
   padding: 0.25em;
   text-decoration: none;
   color: #fff;
-  font-size: 300%;
+  font-size: 400%;
   font-family: Verdana, Geneva, sans-serif;
+  line-height: 175%;
 }
 
 .nav a:hover {
@@ -84,7 +85,7 @@ h1, h2 {
 .nav-label {
   cursor: pointer;
   display: inline-block;
-  width: 100px;
+  width: 200px;
   position: absolute;
   right: 25px;
   top: 9px;
@@ -119,7 +120,7 @@ p {
   padding: 30px;
   padding-top: 0;
   margin: 0;
-  font-size: 250%;
+  font-size: 325%;
 }
 
 h3 {
@@ -129,9 +130,9 @@ h3 {
   background-color: #71090A;
   margin: 0;
   padding: 7px;
-  font-size: 450%;
-  height: 105px;
-  line-height: 130%
+  font-size: 725%;
+  height: 160px;
+  line-height: 120%
 }
 
 h4 {
@@ -141,20 +142,20 @@ h4 {
   background-color: #541A0F;
   margin: 0;
   padding: 6px;
-  padding-left: 24px;
-  padding-right: 24px;
-  font-size: 400%;
-  height: 95px;
-  line-height: 130%
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 700%;
+  height: 150px;
+  line-height: 120%
 }
 
 .info {
   text-align: right;
   font-style: italic;
   color: #AC1816;
-  padding: 12px;
+  padding: 30px;
   margin: 0;
-  font-size: 150%;
+  font-size: 250%;
 }
 
 i {
@@ -170,9 +171,9 @@ td {
 }
 
 th, td {
-  padding-left: 6px;
-  padding-right: 6px;
-  font-size: 175%;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 275%;
   font-family: Georgia, serif;
 }
 
@@ -184,7 +185,7 @@ table {
 
 .title {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 225%;
+  font-size: 350%;
 }
 
 b {
@@ -216,7 +217,7 @@ footer p {
   color: #fff;
   font-size: 100%;
   position: relative;
-  bottom: -210px;
+  bottom: -200px;
   padding-bottom: 0;
 }
 
@@ -241,13 +242,13 @@ iframe {
 
 .items a {
   display: block;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 6px;
   padding-bottom: 6px;
   text-decoration: none;
   color: #000;
-  font-size: 300%;
+  font-size: 325%;
   font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -266,10 +267,10 @@ iframe {
   display: block;
   text-decoration: none;
   color: #000;
-  font-size: 275%;
+  font-size: 300%;
   font-family: Verdana, Geneva, sans-serif;
-  padding-left: 24px;
-  padding-right: 12px;
+  padding-left: 60px;
+  padding-right: 30px;
   padding-bottom: 6px;
 }
 
