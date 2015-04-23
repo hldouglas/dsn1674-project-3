@@ -40,7 +40,7 @@ h1, h2 {
   text-align: center;
   background-color: #AC1816;
   padding: 8px;
-  font-size: 250%;
+  font-size: 330%;
 }
 
 .nav {
@@ -52,7 +52,7 @@ h1, h2 {
   position: absolute;
   right: 0;
   top: 100%;
-  width: 15em;
+  width: 18em;
 }
 
 .nav a {
@@ -60,7 +60,7 @@ h1, h2 {
   padding: 0.25em;
   text-decoration: none;
   color: #fff;
-  font-size: 150%;
+  font-size: 300%;
   font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -116,7 +116,7 @@ p {
   padding: 12px;
   padding-top: 0;
   margin: 0;
-  font-size: 115%;
+  font-size: 200%;
 }
 
 h3 {
@@ -126,7 +126,7 @@ h3 {
   background-color: #71090A;
   margin: 0;
   padding: 7px;
-  font-size: 225%;
+  font-size: 320%;
 }
 
 h4 {
@@ -138,7 +138,7 @@ h4 {
   padding: 6px;
   padding-left: 24px;
   padding-right: 24px;
-  font-size: 200%;
+  font-size: 310%;
 }
 
 .info {
@@ -147,11 +147,11 @@ h4 {
   color: #AC1816;
   padding: 12px;
   margin: 0;
-  font-size: 90%;
+  font-size: 150%;
 }
 
 i {
-  font-size: 92.5%;
+  font-size: 90%;
 }
 
 .first, .title {
@@ -165,7 +165,7 @@ td {
 th, td {
   padding-left: 6px;
   padding-right: 6px;
-  font-size: 115%;
+  font-size: 175%;
   font-family: Georgia, serif;
 }
 
@@ -177,12 +177,12 @@ table {
 
 .title {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 125%;
+  font-size: 225%;
 }
 
 b {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 95%;
+  font-size: 100%;
   color: #541A0F;
 }
 
@@ -206,7 +206,7 @@ footer img {
 
 footer p {
   color: #fff;
-  font-size: 75%;
+  font-size: 100%;
 }
 
 td em {
@@ -236,7 +236,7 @@ iframe {
   padding-bottom: 6px;
   text-decoration: none;
   color: #000;
-  font-size: 125%;
+  font-size: 300%;
   font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -255,7 +255,7 @@ iframe {
   display: block;
   text-decoration: none;
   color: #000;
-  font-size: 110%;
+  font-size: 275%;
   font-family: Verdana, Geneva, sans-serif;
   padding-left: 24px;
   padding-right: 12px;
